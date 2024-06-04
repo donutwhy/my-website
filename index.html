@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="test.css">
+        <script src="matter.js"></script>
+        <title>matter</title>
+        <style>
+            body{
+                background-color: #313338;
+            }
+            .i{
+                display: flex;
+                width: 325px;
+                height: 105px;
+            }
+            .c{
+                position: relative;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 205px;
+                height: 100px;
+                background-color: #2B2D31;
+                border-radius: 5px;
+                justify-content: center;
+                text-align: center;
+            }
+            .d{
+                position: relative;
+                display: flex;
+                width: 100px;
+                height: 100px;
+                background-color: #2B2D31;
+                border-radius: 5px;
+                justify-content: center;
+                align-items: center;
+                margin-right: 5px;
+                transition: all 0.5s ease-in-out;
+            }
+            #u{
+                width: 80px;
+                height: 80px;
+                border-radius: 5px;
+            }
+            .cu{
+                position: absolute;
+                display: flex;
+                align-items: left;
+                justify-content: center;
+                flex-direction: column;
+                text-align: center;
+                line-height: 2.3;
+                background-color: rgb(59, 91, 81);
+                border-radius: 5px;
+                width: 180px;
+                height: 75px;
+            }
+            #z2{
+                color: black;
+                position: relative;
+                text-decoration: none;
+                background-color: rgb(85, 110, 46);
+                border-radius: 5px;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                overflow: hidden;
+                width: 50%;
+                transition: all 0.5s ease;
+            }
+            #z2:hover{
+                background-color: rgb(91, 110, 61)
+            }
+            #b1{
+                color: black;
+                text-decoration: none;
+                background-color: rgb(149, 206, 143);
+                border-radius: 5px;
+                width: 50%;
+                transition: all 0.5s ease;
+            }
+            #b1:hover{
+                background-color: rgb(161, 221, 154);
+            }
+            .c1{
+                position: relative;
+                text-decoration: none;
+                color: black;
+                background-color: #2B2D31;
+                border-radius: 5px;
+            }
+            #m{
+                position: relative;
+                width: 80px;
+                height: 80px;
+                border-radius: 5px;
+            }
+            #b{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            #b2{
+                position: relative;
+                width: 305px;
+                height: 120px;
+                display: grid;
+
+                grid-gap: 5px;
+                grid-template-columns: 100px 100px 100px;
+                grid-template-rows: 100px 100px 120px;
+            }
+            .item-1{
+                transition: all 0.5s ease-in-out;
+            }
+            .item-2{
+                transition: all 0.5s ease-in-out;
+            }
+            .item-3{
+                transition: all 0.5s ease-in-out;
+            }
+
+            .d:hover{
+                transform: scale(120%)
+            }
+            .item-1:hover{
+                transform:scale(120%)
+            }
+            .item-2:hover{
+                transform:scale(120%)
+            }
+            .item-3:hover{
+                transform:scale(120%);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="i">
+            <div class="d">
+                <img id="u" src="https://i.ibb.co/59LpDHJ/cool-shit.jpg" alt="cool-shit">
+            </div>
+            <div class="c">
+                <div class="cu">
+                    <a id="z2" target="_blank" href="https://www.youtube.com/watch?v=cOGGQT4vPRs&list=RDcOGGQT4vPRs&start_radio=1" draggable="true">click-me1
+                    </a>
+                    <a id="b1" target="_blank" href="https://www.youtube.com/watch?v=YG3EhWlBaoI" draggable="true">click-meц
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div id="b2">
+            <a id="b" title="uziii" target="_blank" href="https://www.youtube.com/watch?v=bnFa4Mq5PAM" class="c1 item-1">
+                <img id="m" src="https://i.ibb.co/rb7fSRy/image-2024-06-04-224508499.png">
+            </a>
+            <a id="b" title="C4FF13N3" target="_blank" href="https://www.youtube.com/watch?v=3zmijR3_zWk" class="c1 item-2">
+                <img id="m" src="https://i.ibb.co/Fx3fY4g/image-2024-06-04-215121575.png">
+            </a>
+            <a id="b" target="_blank" href="https://www.youtube.com/watch?v=iqxQeF4oxtM" title="my channel" class="c1 item-3">
+                <img id="m" src="https://i.ibb.co/2FNbY2F/image-2024-06-04-222038963.png">
+            </a>
+        </div>
+    </body>
+</html>
